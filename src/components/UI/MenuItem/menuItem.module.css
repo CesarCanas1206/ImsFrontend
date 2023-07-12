@@ -1,0 +1,50 @@
+.menu_item {
+  align-items: center;
+  border-radius: 12px;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 10px 12px 20px;
+  width: 100%;
+}
+
+.menu_item > div {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.hasChildren {
+  padding-left: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hasChildren .menu_item {
+  padding-top: 9px !important;
+  padding-bottom: 9px !important;
+}
+
+.child {
+  padding-left: 20px;
+}
+
+.open {
+  background-color: #fff;
+  color: var(--c-side, #2e53da);
+}
+
+.active {
+  background-color: #fff;
+  color: var(--c-side, #2e53da);
+}
+
+.menu_item:hover {
+  background-color: #fff;
+  color: var(--c-side, #2e53da);
+  text-decoration: none;
+}

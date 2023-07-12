@@ -1,0 +1,8 @@
+@media (max-width: 690px) {
+  .questionRow {
+    flex-direction: column;
+  }
+  .questionRow > div {
+    width: 100%;
+  }
+}

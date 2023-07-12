@@ -1,0 +1,29 @@
+
+
+.form-group {
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+/*
+label {
+    font-weight: bold;
+} */
+
+.form-sub-title {
+    position: relative;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 6px 12px 6px 12px;
+}
+
+
+.border-color {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f2f2f2;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+

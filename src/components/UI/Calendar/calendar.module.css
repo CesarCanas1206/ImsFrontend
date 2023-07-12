@@ -1,0 +1,45 @@
+.tableScroll {
+  margin-left: 25%;
+  width: 75%;
+  overflow: auto;
+}
+
+.row > td:first-child,
+.row > th:first-child {
+  position: absolute;
+  width: 25%;
+  margin-left: -25%;
+}
+
+.pastDate {
+  opacity: 0.8;
+}
+
+.weekRow {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(100px, 1fr));
+}
+.dateHeading {
+  flex-shrink: 0;
+  font-size: 12px;
+  width: 90px;
+}
+.agendaCol {
+  border-bottom: 1px solid #eee;
+  flex-shrink: 0;
+  font-size: 14px;
+  width: 150px;
+}
+.agendaDay {
+  flex-shrink: 0;
+  font-size: 12px;
+  min-height: 30px;
+  width: 90px;
+}
+
+@media screen and (max-width: 500px) {
+  .weekRow {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,93 @@
+.mapIcon {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  z-index: 1;
+  border: 3px solid #efefef;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  height: 120px;
+  width: 120px;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.mapIcon:hover {
+  opacity: 0.8;
+}
+
+.groupSearch {
+  flex: 1;
+}
+
+.searchInput {
+  flex: 1;
+}
+
+.mt1 {
+  margin-top: 1rem;
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+}
+
+.btn_details {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: 'Source Sans Pro';
+  color: #1A1C1E;
+}
+
+.address {
+  font-size: 0.85rem;
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  color: #1A1C1E;
+}
+
+.location {
+  display: inline-block;
+  cursor: pointer;
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  margin-top: 0.85rem;
+  color: #2E53DA;
+  margin-left: -5px;
+}
+
+.locationIcon {
+  color: #2E53DA;
+}
+
+.accordion {
+  line-height: 0.3rem;
+  border-bottom: none !important;
+}
+
+.accordion_control {
+  font-family: 'Source Sans Pro';
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.accordion span {
+  margin-right: 0px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}

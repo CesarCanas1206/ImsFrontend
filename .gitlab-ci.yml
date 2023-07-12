@@ -1,0 +1,14 @@
+image: alpine:latest
+
+stages:
+  - manual-deploy
+
+manual_deploy:
+  stage: manual-deploy
+  environment:
+    name: staging
+  script:
+    - wget --tries=1 -q -O - 'https://apps.imscomply.com.au/ims-app/deploy.php?v=034cdc7d-3808-4bc3-8b6a-8cc24cea3604'
+  rules:
+    - when: manual
+      allow_failure: true

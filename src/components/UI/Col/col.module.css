@@ -1,0 +1,57 @@
+.col {
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  flex-direction: column !important;
+  display: flex !important;
+  flex: 0 0 auto;
+}
+
+.col1 {
+  width: 8.3333333%;
+}
+
+.col2 {
+  width: 16.6666666%;
+}
+
+.col3 {
+  width: 25%;
+}
+
+.col4 {
+  width: 33.3333333%;
+}
+
+.col5 {
+  width: 41.6666666%;
+}
+
+.col6 {
+  width: 50%;
+}
+
+.col7 {
+  width: 58.3333333%;
+}
+
+.col8 {
+  width: 66.6666666%;
+}
+
+.col9 {
+  width: 75%;
+}
+
+.col10 {
+  width: 83.3333333%;
+}
+
+.col11 {
+  width: 91.6666666%;
+}
+
+.col12 {
+  width: 100%;
+}

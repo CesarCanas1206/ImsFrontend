@@ -1,0 +1,37 @@
+:root {
+  --fc-border-color: #e4e9fa;
+}
+.fc .fc-scrollgrid-section-header.fc-scrollgrid-section-sticky > * {
+  z-index: 60;
+}
+.fc {
+  background-color: var(--c-side, #fff);
+  color: var(--c-text, #000);
+}
+th.fc-day-today {
+  background-color: var(--c-side, #2e53da);
+}
+th.fc-day-today a {
+  color: #fff;
+}
+a.fc-event {
+  border-radius: 4px;
+  background-image: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8)
+  );
+  border-width: 0;
+  border-left-width: 5px;
+  padding-left: 5px;
+}
+a.fc-timeline-event {
+  min-height: 30px;
+}
+
+@media (max-width: 768px) {
+  .fc .fc-toolbar {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+}

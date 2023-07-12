@@ -1,0 +1,26 @@
+.previewModal {
+  position: fixed;
+  right: 5vh;
+  width: 39%;
+  top: 5vh;
+  bottom: 5vh;
+  z-index: 399;
+  background: #fff;
+  display: flex;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  flex-direction: column;
+}
+
+.location {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+  color: #506ee0;
+  margin-left: -5px;
+}
+
+.locationIcon {
+  color: #506ee0;
+}

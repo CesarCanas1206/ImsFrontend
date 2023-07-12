@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="%PUBLIC_URL%/" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>IMS App</title>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <script
+      type="text/javascript"
+      src="%PUBLIC_URL%/watermark-loader.js"
+    ></script>
+  </head>
+  <body style="margin: 0; line-height: 1.5">
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <div id="root">
+      <watermark-loader></watermark-loader>
+    </div>
+    <script type="text/javascript">
+      const path = window.location.pathname.split('/')[1]
+      console.log(path);
+      document.getElementsByTagName('base').href = '/' + path
+      document.getElementById('root').dataset.siteName = path
+    </script>
+  </body>
+</html>

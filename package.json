@@ -1,0 +1,104 @@
+{
+  "name": "ims-app",
+  "version": "0.1.0",
+  "homepage": "./",
+  "private": true,
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@emotion/styled": "^11.11.0",
+    "@fullcalendar/core": "^6.1.8",
+    "@fullcalendar/daygrid": "^6.1.8",
+    "@fullcalendar/interaction": "^6.1.8",
+    "@fullcalendar/multimonth": "^6.1.8",
+    "@fullcalendar/react": "^6.1.8",
+    "@fullcalendar/resource-timegrid": "^6.1.8",
+    "@fullcalendar/resource-timeline": "^6.1.8",
+    "@fullcalendar/timegrid": "^6.1.8",
+    "@mantine/carousel": "^6.0.13",
+    "@mantine/core": "^6.0.13",
+    "@mantine/dates": "^6.0.13",
+    "@mantine/hooks": "^6.0.13",
+    "@mantine/notifications": "^6.0.13",
+    "@mantine/tiptap": "^6.0.13",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.3",
+    "@paypal/react-paypal-js": "^7.8.3",
+    "@react-pdf/renderer": "^3.1.11",
+    "@tiptap/extension-link": "^2.0.3",
+    "@tiptap/extension-mention": "^2.0.3",
+    "@tiptap/react": "^2.0.3",
+    "@tiptap/starter-kit": "^2.0.3",
+    "chart.js": "^4.3.0",
+    "dayjs": "^1.11.8",
+    "docx": "^8.0.4",
+    "embla-carousel-react": "^8.0.0-rc06",
+    "file-save": "^0.2.0",
+    "file-saver": "^2.0.5",
+    "mapbox-gl": "^2.15.0",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-csv": "^2.2.2",
+    "react-data-table-component": "^7.5.3",
+    "react-dom": "^18.2.0",
+    "react-expand-collapse": "^0.2.0",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.11.2",
+    "react-signature-canvas": "^1.0.6",
+    "typescript": "^5.1.3",
+    "uuid": "^9.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "npm install --force && vite",
+    "build": "vite build && npm run create-php",
+    "build-vite": "vite build",
+    "create-php": "node create-indexphp.js",
+    "test": "react-scripts test",
+    "eject": "vite eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browser": {
+    "buffer": false
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/file-saver": "^2.0.5",
+    "@types/jest": "^29.5.2",
+    "@types/mapbox-gl": "^2.7.11",
+    "@types/node": "^20.2.5",
+    "@types/react": "^18.2.8",
+    "@types/react-beautiful-dnd": "^13.1.4",
+    "@types/react-csv": "^1.1.3",
+    "@types/react-dom": "^18.2.4",
+    "@types/react-pdf": "^6.2.0",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-signature-canvas": "^1.0.2",
+    "@types/uuid": "^9.0.1",
+    "@vitejs/plugin-react": "^4.0.0",
+    "buffer": "^6.0.3",
+    "vite": "^4.3.9"
+  }
+}

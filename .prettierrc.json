@@ -1,0 +1,12 @@
+{
+  "semi": false,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.jsxSingleQuote": true,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  }
+}

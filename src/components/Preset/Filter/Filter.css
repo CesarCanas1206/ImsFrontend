@@ -1,0 +1,10 @@
+.filter-primary-color {
+    color: #fff;
+    background-color: #337ab7;
+}
+
+.filter-responsive-normal {
+    border: 1px solid #ddd;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}

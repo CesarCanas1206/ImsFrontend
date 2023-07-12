@@ -1,0 +1,11 @@
+.wrapper {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 0.5rem;
+}
+.noData {
+  text-align: center;
+  padding: 1rem;
+}

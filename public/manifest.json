@@ -1,0 +1,20 @@
+{
+  "short_name": "IMS App",
+  "name": "IMS App",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "192x192 180x180 152x152 144x144 120x120 96x96 64x64 60x60 57x57 48x48 36x36 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#337ab7",
+  "background_color": "#ffffff"
+}

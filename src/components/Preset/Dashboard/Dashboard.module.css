@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.showHidePanel {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.showHidePanel div {
+  flex: 1;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}

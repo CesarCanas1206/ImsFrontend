@@ -1,0 +1,23 @@
+.menuItem {
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menuItem > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.menuItem:hover {
+  border-color: rgb(37, 131, 160);
+}
+
+.sideBarItem {
+  border: 1px solid transparent;
+}
+
+.sideBarItem:hover {
+  border-color: rgb(37, 131, 160);
+}
