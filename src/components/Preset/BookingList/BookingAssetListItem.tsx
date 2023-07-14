@@ -106,28 +106,6 @@ function BookingAssetListItem({
     }
     run()
 
-    // console.log(asset)
-    // console.log(pricing)
-
-    //   const price =
-    //   typeof asset.pricing !== 'undefined'
-    //     ? Array.isArray(asset.pricing) && asset?.pricing[0]?.rate
-    //     : asset?.price
-    // let hours = calculateHours(booking)
-
-    // const bookHandler = async () => {
-    //   const savedBooking = await post({
-    //     endpoint: 'd/booking',
-    //     data: {
-    //       user_id: userId,
-    //       ...booking,
-    //       hours,
-    //       price: price ?? 25,
-    //       total: hours * Number(price ?? 25),
-    //       approved: 0,
-    //     },
-    //   })
-
     return (
       // pricing && (
       <ModalButtonForm

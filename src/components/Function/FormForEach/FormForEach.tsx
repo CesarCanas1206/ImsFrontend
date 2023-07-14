@@ -28,7 +28,6 @@ const addRowRecursive = (children: any, row: any) => {
 function FormForEach({ item = 'asset', children }: any) {
   const { values } = useContext(FormContext)
 
-  // console.log(children)
 
   return (
     <div>
@@ -46,12 +45,6 @@ function FormForEach({ item = 'asset', children }: any) {
               >
                 {/* {addRowRecursive(children, item)} */}
                 {Children.map(children, (child: any) => {
-                  // console.log(child)
-                  // if (typeof child?.component === 'undefined') {
-                  //   return React.cloneElement(child, { row: item })
-                  // }
-
-                  // console.log(child)
 
                   return (
                     <DynamicComponent
